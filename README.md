@@ -5,3 +5,5 @@ Three diagramms :
 - A horizontal chart
 - A Vertical Chart
 - A circular chart
+
+Made by Sharmake and Gaëtan
