@@ -1,4 +1,4 @@
-#Diagramm in CSS
+# Diagramm in CSS
 A little game to play with css.
 
 Three diagramms :
