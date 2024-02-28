@@ -1,0 +1,88 @@
+.horizontalChart {
+  font: 1em sans-serif;
+  text-align: right;
+  padding: 20px;
+  margin: 12px;
+}
+
+div:nth-child(1) {
+  width: 4%;
+  height: 18px;
+  background: red;
+}
+
+div:nth-child(2) {
+  width: 8%;
+  background: #750ce8;
+  color: white;
+}
+
+div:nth-child(3) {
+  background: yellow;
+  width: 15%;
+}
+div:nth-child(4) {
+  background: green;
+  width: 20%;
+  color: white;
+}
+div:nth-child(5) {
+  background: purple;
+  width: 53%;
+  color: white;
+}
+div:nth-child(6) {
+  background: pink;
+  width: 100%;
+}
+/* Style vertical*/
+.verticalChart {
+  font: 1em sans-serif;
+  text-align: right;
+  padding: 20px;
+  margin-top: 50%;
+  transform: rotate(-90deg);
+  margin-bottom: 30%;
+}
+
+div:nth-child(1) {
+  height: 10%;
+  height: 18px;
+  background: red;
+}
+
+div:nth-child(2) {
+  height: 33%;
+  background: #750ce8;
+  color: white;
+}
+
+div:nth-child(3) {
+  background: yellow;
+  height: 64%;
+}
+div:nth-child(4) {
+  background: green;
+  height: 52%;
+  color: white;
+}
+div:nth-child(5) {
+  background: purple;
+  height: 88%;
+  color: white;
+}
+div:nth-child(6) {
+  background: pink;
+  height: 90%;
+}
+
+.circularChart #round {
+  width: 400px;
+  height: 400px;
+  background-image: conic-gradient(red 64%, blue 64%, blue 81%, pink 81%);
+  border-radius: 50%;
+}
+
+.circularChart {
+  margin-top: 50%;
+}
